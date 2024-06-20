@@ -21,6 +21,7 @@ export default function Home() {
             </div>
           </div>
           <img
+          
             alt="Hero"
             className="mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
             height="300"
