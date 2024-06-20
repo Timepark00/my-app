@@ -10,7 +10,7 @@ export default function Home() {
           <div className="space-y-4 md:space-y-6">
             <div className="space-y-3">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                Jane Doe
+                Park Hyonggi
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Graphic Designer & Illustrator
@@ -21,7 +21,7 @@ export default function Home() {
             </div>
           </div>
           <img
-          
+
             alt="Hero"
             className="mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
             height="300"
