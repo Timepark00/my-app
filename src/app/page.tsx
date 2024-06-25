@@ -52,7 +52,7 @@ export default function Component() {
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
             <div className="grid gap-6">
               <h1 className="text-3xl md:text-4xl font-bold">
-                Welcome to my Portfolio Park hyonggi
+                Welcome to my Portfolio Park hyeonggi
               </h1>
               <p className="text-gray-500 text-lg dark:text-gray-400">
                 Explore my latest graphic design projects and learn more about
