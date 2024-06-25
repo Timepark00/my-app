@@ -12,28 +12,30 @@ export default function Component() {
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link
-              href="#"
+              href="#id1"
               className="text-sm font-medium hover:text-gray-50/80 dark:hover:text-gray-900/80"
               prefetch={false}
             >
               Home
             </Link>
             <Link
-              href="#"
+              href="#FeaturedWork"
               className="text-sm font-medium hover:text-gray-50/80 dark:hover:text-gray-900/80"
               prefetch={false}
             >
               Portfolio
             </Link>
             <Link
-              href="#"
+              href="https://www.instagram.com/h.key_park_00/"
+              target="_blank"
               className="text-sm font-medium hover:text-gray-50/80 dark:hover:text-gray-900/80"
               prefetch={false}
             >
               About
             </Link>
             <Link
-              href="#"
+              href="https://www.instagram.com/h.key_park_00/"
+              target="_blank"
               className="text-sm font-medium hover:text-gray-50/80 dark:hover:text-gray-900/80"
               prefetch={false}
             >
@@ -41,12 +43,12 @@ export default function Component() {
             </Link>
           </nav>
         </div>
-        <Button variant="outline" className="hidden md:inline-flex">
-          Download CV
-        </Button>
       </header>
       <main className="flex-1">
-        <section className="bg-gray-900/10 py-12 md:py-20 dark:bg-gray-50/10">
+        <section
+          id="id1"
+          className="bg-gray-900/10 py-12 md:py-20 dark:bg-gray-50/10"
+        >
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
             <div className="grid gap-6">
               <h1 className="text-3xl md:text-4xl font-bold">
@@ -57,8 +59,22 @@ export default function Component() {
                 me.
               </p>
               <div className="flex gap-4">
-                <Button>View Portfolio</Button>
-                <Button variant="outline">Contact Me</Button>
+                <Button>
+                  <a
+                    href="https://www.instagram.com/h.key_park_00/"
+                    target="_blank"
+                  >
+                    View Portfolio
+                  </a>
+                </Button>
+                <Button>
+                  <a
+                    href="https://www.instagram.com/h.key_park_00/"
+                    target="_blank"
+                  >
+                    Contact Me
+                  </a>
+                </Button>
               </div>
             </div>
             <div className="grid gap-4">
@@ -79,7 +95,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="py-12 md:py-20">
+        <section id="FeaturedWork" className="py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-6 grid gap-12">
             <div className="grid gap-4">
               <h2 className="text-2xl md:text-3xl font-bold">Featured Work</h2>
@@ -89,7 +105,8 @@ export default function Component() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
-                href="#"
+                href="https://www.instagram.com/p/C8nql5IP9J8/?img_index=5"
+                target="_blank"
                 className="group relative overflow-hidden rounded-lg"
                 prefetch={false}
               >
@@ -110,7 +127,8 @@ export default function Component() {
                 </div>
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/p/C8nql5IP9J8/?img_index=6"
+                target="_blank"
                 className="group relative overflow-hidden rounded-lg"
                 prefetch={false}
               >
@@ -131,7 +149,8 @@ export default function Component() {
                 </div>
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/p/CQhMT-jFidH/"
+                target="_blank"
                 className="group relative overflow-hidden rounded-lg"
                 prefetch={false}
               >
@@ -173,10 +192,6 @@ export default function Component() {
                 illustration. My goal is to give people different experiences
                 with my graphic style.
               </p>
-              <div className="flex gap-4">
-                <Button>Learn More</Button>
-                <Button variant="outline">Download CV</Button>
-              </div>
             </div>
           </div>
         </section>
@@ -186,32 +201,22 @@ export default function Component() {
           <Link href="#" prefetch={false}>
             <LogInIcon className="w-8 h-8" />
           </Link>
-          <p className="text-sm">
-            &copy; 2023 Your Graphic Designer. All rights reserved.
-          </p>
+          <p className="text-sm">&copy; since 2024.06.25</p>
         </div>
         <div className="flex items-center gap-4">
           <Link
-            href="#"
-            className="hover:text-gray-50/80 dark:hover:text-gray-900/80"
-            prefetch={false}
-          >
-            <TwitterIcon className="w-6 h-6" />
-          </Link>
-          <Link
-            href="#"
+            href="https://www.instagram.com/h.key_park_00/"
+            target="_blank"
             className="hover:text-gray-50/80 dark:hover:text-gray-900/80"
             prefetch={false}
           >
             <InstagramIcon className="w-6 h-6" />
           </Link>
           <Link
-            href="#"
+            href="https://www.instagram.com/h.key_park_00/"
             className="hover:text-gray-50/80 dark:hover:text-gray-900/80"
             prefetch={false}
-          >
-            <LinkedinIcon className="w-6 h-6" />
-          </Link>
+          ></Link>
         </div>
       </footer>
     </div>
