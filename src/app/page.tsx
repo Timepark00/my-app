@@ -12,14 +12,14 @@ export default function Component() {
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link
-              href="#id1"
+              href="https://my-app-qltd.vercel.app/"
               className="text-sm font-medium hover:text-gray-50/80 dark:hover:text-gray-900/80"
               prefetch={false}
             >
               Home
             </Link>
             <Link
-              href="#FeaturedWork"
+              href="https://my-app-qltd.vercel.app/"
               className="text-sm font-medium hover:text-gray-50/80 dark:hover:text-gray-900/80"
               prefetch={false}
             >
@@ -34,8 +34,7 @@ export default function Component() {
               About
             </Link>
             <Link
-              href="https://www.instagram.com/h.key_park_00/"
-              target="_blank"
+              href="#id2"
               className="text-sm font-medium hover:text-gray-50/80 dark:hover:text-gray-900/80"
               prefetch={false}
             >
@@ -46,7 +45,7 @@ export default function Component() {
       </header>
       <main className="flex-1">
         <section
-          id="id1"
+          
           className="bg-gray-900/10 py-12 md:py-20 dark:bg-gray-50/10"
         >
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
@@ -173,7 +172,9 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-900/10 py-12 md:py-20 dark:bg-gray-50/10">
+        <section
+        id="id2"
+         className="bg-gray-900/10 py-12 md:py-20 dark:bg-gray-50/10">
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
             <div className="grid gap-4">
               <img
@@ -186,6 +187,7 @@ export default function Component() {
             </div>
             <div className="grid gap-6">
               <h2 className="text-2xl md:text-3xl font-bold">About Me</h2>
+              
               <p className="text-gray-500 text-lg dark:text-gray-400">
                 I am a passionate graphic designer with over 5 years of
                 experience. I specialize in charactor, background and
